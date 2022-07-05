@@ -1,0 +1,217 @@
+/*body{
+    background-image: url(https://thumbs.dreamstime.com/b/fondo-de-comida-r%C3%A1pida-vector-sin-fisuras-sandwich-hamburguesa-hot-dog-carne-y-postres-para-dise%C3%B1o-gr%C3%A1fico-162260592.jpg);
+    font-family: sans-serif;
+    display: grid;
+}
+
+#footer{
+    background-color: white;
+    
+}
+
+ul li{
+    display: inline;
+    padding: 20px;
+    margin-top: 155px;
+}
+
+#lista{
+    background-color: white;
+    height: 50px;
+    text-align: center;
+    
+
+}
+
+fieldset{
+    background-color: white;
+}
+
+legend{
+    font-weight: bold;
+}
+
+#cabecera h1{
+    display: inline;
+    margin-left: 500px;
+    font-size: 50px;
+    color: red;
+}*/
+
+@media (min-width: 320px) {
+
+    body{
+        background-image: url(https://thumbs.dreamstime.com/b/fondo-de-comida-r%C3%A1pida-vector-sin-fisuras-sandwich-hamburguesa-hot-dog-carne-y-postres-para-dise%C3%B1o-gr%C3%A1fico-162260592.jpg);
+    }
+
+    #cabecera{
+        width:108;
+        height:100;
+        /*animation: rotation 8s infinite linear;*/
+    }
+
+    /*@keyframes rotation {
+        from {
+          transform: rotate(0deg);
+        }
+        to {
+          transform: rotate(359deg);
+        }
+      }*/
+
+    #cabecera h1{
+        color: red;
+        font-family: 'Bangers', cursive;
+
+    }
+
+    nav{
+        background-color: white;
+        margin: 0 auto;
+    }
+
+    hr{
+        color: black;
+    }
+
+    .contenedor #comidas{
+        justify-content: center;
+
+       /* display: inline-block;*/
+        display: grid;
+        grid-template-columns: auto auto auto;
+    }
+
+   
+    .contenedor #comidas button{
+        max-width: 480px;
+        width: 3cm;
+        margin: 8px;
+        align-items: center;
+        justify-content: center;
+        
+    }
+
+    #promos legend{
+        color: red;
+        text-align: center;
+    }
+
+    #promos p{
+        text-align: center;
+    }
+    
+    #campo legend{
+        /*background: linear-gradient(45deg, red 70%, white);*/
+        background-color: red;
+        color: white;
+        font-family: 'Bangers', cursive;
+        margin-bottom: 28px;
+        margin-top: -15px;
+        padding: 15px;
+    }
+
+    #campo p{
+        font-size: large;
+        margin-top: 45px;
+        padding: 15px;
+    }
+
+    #misDirecciones{
+        margin-left: 25px;
+    }
+    
+    #miCuenta{
+        margin-left: 25px;
+    }
+
+    #misCupones{
+        margin-left: 25px;
+    }
+}
+
+@media(min-width: 480px){
+    .contenedor #comidas button{
+        margin-left: 9ch;
+        margin-right: 5ch;
+        padding: 0.5em;
+    }
+}
+
+@media(min-width: 768px){
+    #cabecera{
+        display: grid;
+        justify-content: center;
+        align-items: center;
+    }
+
+    #cabecera img{
+        height: 200px;
+        width: 208px;
+    }
+
+    #cabecera h1{
+        text-align: center;
+        padding-top: 35px;
+        font-size: 1.25cm;
+    }
+
+    .contenedor #comidas{
+        display: block;
+        align-content: center;
+        justify-content: center;
+        max-width: 768px;
+        margin-left: 20px;
+    }
+
+    .contenedor #comidas button{
+        max-width: 768px;
+        width: 6cm;
+        margin: 8px 8px 8px 8px;
+        padding: 0.75cm;
+    }
+
+    .contenedor #promos{
+        font-size: 21px;
+    }
+}
+
+@media(min-width: 1024px){
+.contenedor{
+    height: 100vh;
+}    
+.contenedor #comidas{
+    display: grid;
+    justify-content: center;
+    width: 1024px;
+    grid-template-columns: auto auto auto;
+    place-content: center;
+    margin-left: 110px;
+}
+.contenedor #comidas button{
+    margin-left: 36px;
+    margin-right: 36px;
+}
+.contenedor #promos legend{
+    font-size: 1.5cm;
+}
+.contenedor #promos{
+    font-size: 1cm;
+}
+}
+@media(min-width:1200px){
+    .contenedor #comidas{
+        display: grid;
+        margin-left: 380px;
+    }
+    .contenedor #comidas button{
+        margin-left: 90px;
+        margin-right: 90px;
+    }
+    .contenedor #comidas button:hover{
+        transform: translateY(50px);
+        background-color: lightsalmon;
+
+    }
+}
+
