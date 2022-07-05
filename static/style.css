@@ -47,17 +47,17 @@ legend{
     #cabecera{
         width:108;
         height:100;
-        /*animation: rotation 8s infinite linear;*/
+        animation: rotation 8s infinite linear;
     }
 
-    /*@keyframes rotation {
+    @keyframes rotation {
         from {
           transform: rotate(0deg);
         }
         to {
           transform: rotate(359deg);
         }
-      }*/
+      }
 
     #cabecera h1{
         color: red;
@@ -102,8 +102,8 @@ legend{
     }
     
     #campo legend{
-        /*background: linear-gradient(45deg, red 70%, white);*/
-        background-color: red;
+        background: linear-gradient(45deg, red 70%, white);
+        /*background-color: red;*/
         color: white;
         font-family: 'Bangers', cursive;
         margin-bottom: 28px;
